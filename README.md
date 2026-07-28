@@ -126,4 +126,4 @@ Enhanced educational warnings.
 
 Integration with other alerting systems (Slack, Email).
 
-📧 ContactFor questions regarding this project or security concerns, please open an issue on this repository.Created for educational purposes. Always ensure you have permission before testing phishing simulations on real users.TextUnwrapCopied!Copy
+📧 ContactFor questions regarding this project or security concerns, please open an issue on this repository.Created for educational purposes. Always ensure you have permission before testing phishing simulations on real users.
