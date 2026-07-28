@@ -1,0 +1,390 @@
+/* static/style.css - Complete with Error Page Styles */
+
+body {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    color: #111;
+    padding-top: 20px;
+}
+
+.main-wrapper {
+    width: 100%;
+    max-width: 350px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Amazon Logo */
+.logo-container {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.amazon-logo {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #111;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.logo-text {
+    color: #111;
+}
+
+.logo-domain {
+    color: #111;
+    font-size: 28px;
+}
+
+.logo-smile {
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+}
+
+.logo-smile::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 15px;
+    border-bottom: 3px solid #ff9900;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(-2deg);
+}
+
+.logo-smile::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    right: 10%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #ff9900;
+    transform: rotate(-25deg);
+}
+
+/* Login Box */
+.login-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 26px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    background: #fff;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #111;
+    margin: 0 0 10px 0;
+    text-align: left;
+    line-height: 1.3;
+}
+
+/* User Email Display */
+.user-email-display {
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.change-link {
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.change-link:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 2px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 31px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    font-size: 13px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.5), 0 1px 0 rgba(0,0,0,0.07) inset;
+    background-color: #fff;
+    color: #111;
+    box-sizing: border-box;
+    margin-top: 1px;
+}
+
+input:focus {
+    border-color: #e77600;
+    box-shadow: 0 0 0 3px #f90;
+    outline: none;
+}
+
+.forgot-link {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Continue Button */
+.continue-btn {
+    width: 100%;
+    height: 31px;
+    background: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 20px;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #111;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,0.5);
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    line-height: 29px;
+}
+
+.continue-btn:hover {
+    background: #f7ca00;
+    border-color: #f2c200;
+}
+
+.continue-btn:active {
+    background: #f0b800;
+    box-shadow: none;
+}
+
+/* Legal Text */
+.legal-text {
+    font-size: 12px;
+    color: #111;
+    margin-top: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.legal-text a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.legal-text a:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+/* Work Section */
+.work-section {
+    margin-top: 20px;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 15px;
+}
+
+.work-section h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 5px 0;
+    text-align: left;
+}
+
+.work-section a {
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+}
+
+.work-section a:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #555;
+    margin: 0;
+    text-align: center;
+}
+
+/* ============================================
+   ERROR PAGE SPECIFIC STYLES
+   ============================================ */
+
+.error-container {
+    padding: 25px;
+    text-align: center;
+}
+
+.error-header {
+    margin-bottom: 20px;
+}
+
+.error-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+}
+
+.error-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.error-header h1 {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    color: #111;
+}
+
+.error-content {
+    text-align: left;
+}
+
+.error-main-text {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.error-code-box {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.error-code-box p {
+    margin: 5px 0;
+}
+
+.error-code-box strong {
+    color: #111;
+}
+
+.redirect-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px 0;
+    font-size: 13px;
+    color: #111;
+}
+
+.loading-spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ddd;
+    border-top-color: #ff9900;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.manual-redirect {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    margin-top: 15px;
+}
+
+.manual-redirect a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.manual-redirect a:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .login-box {
+        padding: 20px;
+    }
+    
+    .error-container {
+        padding: 20px;
+    }
+}

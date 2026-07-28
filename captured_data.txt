@@ -1,0 +1,97 @@
+---------------------------------
+TIME: 127.0.0.1
+IP: 127.0.0.1
+EMAIL: nkscasclasc
+PASSWORD: No Password
+---------------------------------
+
+
+============================================================
+CAPTURE EVENT: 2026-07-25 03:39:35
+============================================================
+TARGET_IP: 127.0.0.1
+USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+EMAIL_INPUT: 
+PASSWORD_INPUT: olj;l
+============================================================
+END OF LOG ENTRY
+
+
+
+============================================================
+CAPTURE EVENT: 2026-07-25 04:34:40
+============================================================
+TARGET_IP: 127.0.0.1
+USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+EMAIL_INPUT: 
+PASSWORD_INPUT: vhjhk
+============================================================
+END OF LOG ENTRY
+
+
+
+============================================================
+CAPTURE EVENT: 2026-07-25 04:48:49
+============================================================
+TARGET_IP: 127.0.0.1
+USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+EMAIL_INPUT: 
+PASSWORD_INPUT: gkg9898\
+============================================================
+END OF LOG ENTRY
+
+
+============================================================
+CAPTURE EVENT: 2026-07-25 05:02:43
+============================================================
+TARGET_IP: 127.0.0.1
+USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+EMAIL_INPUT: 
+PASSWORD_INPUT: cfgcgyt7
+============================================================
+END OF LOG ENTRY
+
+
+============================================================
+CAPTURE EVENT: 2026-07-25 05:16:08
+============================================================
+TARGET_IP: 127.0.0.1
+USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+EMAIL_INPUT: 
+PASSWORD_INPUT: feafafa
+============================================================
+END OF LOG ENTRY
+
+
+============================================================
+CAPTURE EVENT: 2026-07-25 05:30:33
+============================================================
+TARGET_IP: 127.0.0.1
+USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+EMAIL_INPUT: 
+PASSWORD_INPUT: serdtfygukhli456789
+============================================================
+END OF LOG ENTRY
+
+
+============================================================
+CAPTURE EVENT: 2026-07-25 05:51:00
+============================================================
+TARGET_IP: 127.0.0.1
+USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+EMAIL_INPUT: divanshrana79@gmail.com
+PASSWORD_INPUT: qwadefg343544
+============================================================
+END OF LOG ENTRY
+
+
+============================================================
+CAPTURE EVENT: 2026-07-28 15:24:46
+============================================================
+TARGET_IP: 127.0.0.1
+USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+EMAIL_INPUT: divanshrana79@gmail.com
+PASSWORD_INPUT: 535345345
+============================================================
+END OF LOG ENTRY
+
